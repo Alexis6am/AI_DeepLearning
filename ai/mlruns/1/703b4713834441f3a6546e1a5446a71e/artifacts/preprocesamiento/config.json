@@ -1,0 +1,19 @@
+{
+  "ventana": 1,
+  "variables": [
+    "Venta_uni_hoy",
+    "Venta_hoy",
+    "Dev_uni_proxima",
+    "Dev_proxima",
+    "Demanda_uni_equil"
+  ],
+  "indice_variables": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "transformacion": "log1p + MinMaxScaler(0,1)",
+  "columna_objetivo": "Demanda_uni_equil"
+}

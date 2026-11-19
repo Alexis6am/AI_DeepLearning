@@ -1,0 +1,33 @@
+artifact_path: file:C:/Users/alexi/Desktop/Personal/Proyecto_DL/AI_DeepLearning/ai/mlruns/1/models/m-45eb810fc73b4e88b576d00113611550/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-45eb810fc73b4e88b576d00113611550
+model_size_bytes: 634819
+model_uuid: m-45eb810fc73b4e88b576d00113611550
+prompts: null
+run_id: 6123a1e14ebb4c05b55403649485550c
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: ndarray
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 5]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-19 07:10:42.086210'

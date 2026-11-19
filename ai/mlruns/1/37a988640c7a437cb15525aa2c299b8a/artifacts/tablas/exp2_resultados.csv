@@ -1,0 +1,7 @@
+Modelo,Segundos,RMSE validacion
+SVM linear,7.6,595.9
+SVM poly (grado 3),124.9,653.58
+SVM rbf,10.2,744.02
+Regresion Lineal,0.0,920.21
+SVM poly (grado 2),38.2,931.47
+SVM sigmoid,15.3,136183.99
