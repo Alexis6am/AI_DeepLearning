@@ -1,5 +1,6 @@
 /data/raw/*
 /data/processed/*
+/ai/.ipynb_checkpoints/
 
 !/data/raw/README.md
 !/data/processed/README.md
